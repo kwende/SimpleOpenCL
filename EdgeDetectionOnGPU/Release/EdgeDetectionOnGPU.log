@@ -1,0 +1,40 @@
+﻿Build started 4/11/2016 9:58:42 AM.
+     1>Project "c:\Users\brush\documents\visual studio 2015\Projects\EdgeDetectionOnGPU\EdgeDetectionOnGPU\EdgeDetectionOnGPU.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\EdgeDete.E99F5DFC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       _Intel_OpenCL_Build_Rules:
+         Preprocessing: Template.cl
+         cmd.exe /Q /C "C:\Users\brush\AppData\Local\Temp\tmp20b43eaafe3249399fa23d780c7af030.cmd"
+         "C:\Program Files (x86)\Intel\OpenCL SDK\bin\x86\ioc32.exe" -cmd=build -input="c:\Users\brush\documents\visual studio 2015\Projects\EdgeDetectionOnGPU\EdgeDetectionOnGPU\Template.cl" -output="Release\Template.out" -VS -device=CPU -simd=default -targetos=current        -bo="           "
+         Setting target instruction set architecture to: Default (Advanced Vector Extension 2 (AVX2))
+         OpenCL Intel CPU device was found!
+         Device name: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+         Device version: OpenCL 2.0 (Build 10094)
+         Device vendor: Intel(R) Corporation
+         Device profile: FULL_PROFILE
+         Compilation started
+         Compilation done
+         Linking started
+         Linking done
+         Device build started
+         Device build done
+         Kernel <Add> was successfully vectorized (8)
+         Done.
+         Add info:
+         	Maximum work-group size: 8192
+         	Compiler work-group size: (0, 0, 0)
+         	Local memory size: 0
+         	Preferred multiple of work-group size: 128
+         	Minimum amount of private memory: 0
+         
+         Build succeeded!
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Intel\OpenCL SDK\include" /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D Win32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt EdgeDetectionOnGPU.cpp
+         EdgeDetectionOnGPU.cpp
+     1>EdgeDetectionOnGPU.cpp(35): fatal error C1083: Cannot open include file: 'opencv2/core.hpp': No such file or directory
+     1>Done Building Project "c:\Users\brush\documents\visual studio 2015\Projects\EdgeDetectionOnGPU\EdgeDetectionOnGPU\EdgeDetectionOnGPU.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.94
